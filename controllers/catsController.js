@@ -102,6 +102,7 @@ module.exports ={
         models.Cat.findAll({
             order: [
                 ['votes', 'DESC'],
+                ['updatedAt', 'ASC'],
             ],
         }).then(function(cats){
             if(cats.length!=0){
