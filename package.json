@@ -1,0 +1,29 @@
+{
+  "name": "votecatback",
+  "version": "1.0.0",
+  "description": "Vote the cutest cat and see the ranking (Part Back)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddabakh/votecatback.git"
+  },
+  "author": "Abdoul Aziz SY",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maddabakh/votecatback/issues"
+  },
+  "homepage": "https://github.com/maddabakh/votecatback#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.5"
+  }
+}
